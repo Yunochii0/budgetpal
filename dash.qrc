@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="img">
+    <file>bgdash.jpeg</file>
+    <file>linenobg.png</file>
+    <file>piechartnobg.png</file>
+    <file>linechart.jpeg</file>
+    <file>piechart.jpeg</file>
+    <file>piechart.jpg</file>
+  </qresource>
+</RCC>

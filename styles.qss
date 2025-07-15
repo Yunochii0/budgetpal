@@ -1,0 +1,121 @@
+/* styles.qss - A professional, clean theme for BudgetPal */
+
+/* ---- Main Window & Fonts ---- */
+QWidget {
+    font-family: "Segoe UI", "Helvetica", "Arial", sans-serif;
+    font-size: 10pt;
+    background-color: #F5F7FA; /* Light gray background */
+    color: #333;
+}
+
+/* ---- Sidebar ---- */
+#icons_only_widget, #widget_2 {
+    background-color: #2C3E50; /* Dark blue-gray */
+}
+#label { /* App Name */
+    color: #ECF0F1; /* Light gray text */
+    font-size: 15pt;
+    font-weight: bold;
+}
+/* Sidebar buttons */
+#icons_only_widget QPushButton, #widget_2 QPushButton {
+    color: #ECF0F1;
+    text-align: left;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+#icons_only_widget QPushButton:hover, #widget_2 QPushButton:hover {
+    background-color: #34495E; /* Slightly lighter blue-gray */
+}
+#icons_only_widget QPushButton:checked, #widget_2 QPushButton:checked {
+    background-color: #4A6572; /* A muted blue for checked state */
+}
+
+/* ---- Main Content Area ---- */
+QStackedWidget > QWidget > QFrame {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+/* ---- Titles (e.g., "INCOME TRACKER") ---- */
+QLabel[font-size="20pt"], QLabel[font-size="14pt"] {
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+/* ---- Input Fields ---- */
+QLineEdit, QDateEdit, QTextEdit {
+    background-color: #FDFEFE;
+    border: 1px solid #D5DBDB;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 10pt;
+}
+QLineEdit:focus, QDateEdit:focus, QTextEdit:focus {
+    border: 1px solid #3498DB; /* Blue highlight on focus */
+}
+
+/* ---- Buttons ---- */
+QPushButton {
+    background-color: #3498DB; /* Primary blue */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+QPushButton:hover {
+    background-color: #2980B9;
+}
+#change_btn, #search_btn {
+    background-color: transparent;
+    border: none;
+}
+
+/* ---- Tables ---- */
+QTableWidget {
+    background-color: #FFFFFF;
+    border: 1px solid #EAECEE;
+    gridline-color: #EAECEE;
+    color: #333;
+}
+QHeaderView::section {
+    background-color: #F5F7FA;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #EAECEE;
+    font-weight: bold;
+}
+
+/* ---- Info Boxes (Income/Expense/Balance) ---- */
+#textBrowser_3, #textBrowser_4, #textBrowser_5 {
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+}
+#textBrowser_3 { background-color: #2ECC71; } /* Green for Income */
+#textBrowser_4 { background-color: #E74C3C; } /* Red for Expense */
+#textBrowser_5 { background-color: #3498DB; } /* Blue for Balance */
+
+/* ---- Report Page Header ---- */
+#frame_162 {
+    background-color: #2C3E50;
+    color: white;
+}
+#label_114 {
+    color: white;
+}
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #45A049;
+}

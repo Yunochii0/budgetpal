@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>resources/expense bargraph.png</file>
+    <file>resources/income pie.png</file>
+    <file>resources/linenobg.png</file>
+    <file>resources/piechartnobg.png</file>
+    <file>resources/budget.png</file>
+    <file>resources/dashboard.png</file>
+    <file>resources/exit.png</file>
+    <file>resources/expense.png</file>
+    <file>resources/hammenuB.png</file>
+    <file>resources/history.png</file>
+    <file>resources/income.png</file>
+    <file>resources/logo.png</file>
+    <file>resources/reports.png</file>
+    <file>resources/savings.png</file>
+    <file>resources/search.png</file>
+    <file>resources/settings.png</file>
+  </qresource>
+</RCC>
